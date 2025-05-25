@@ -2,10 +2,9 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { Header } from './components/Header'
 import Inicio from './page/Inicio'
-import Clima from './page/home'
 import Favoritos from './page/Favoritos'
-import './app.css';
-
+import './app.css'
+import ClimaPage from './page/ClimaPage'
 
 const App: React.FC = () => {
   return (
@@ -13,7 +12,7 @@ const App: React.FC = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="/clima" element={<Clima />} />
+        <Route path="/clima" element={<ClimaPage />} />
         <Route path="/favoritos" element={<Favoritos />} />
       </Routes>
     </>
