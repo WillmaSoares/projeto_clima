@@ -4,7 +4,8 @@ import { Header } from './components/Header'
 import Inicio from './page/Inicio'
 import Clima from './page/home'
 import Favoritos from './page/Favoritos'
-import './App.css';
+import './app.css';
+
 
 const App: React.FC = () => {
   return (
