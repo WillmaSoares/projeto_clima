@@ -29,4 +29,5 @@ Este é um projeto de previsão do tempo desenvolvido como parte da disciplina d
 - **Eliane Marques** – Design da interface, estilização com Material UI e responsividade
 - **josé Matheus** – Estruturação das rotas e organização da navegação entre páginas
 - **Geliel Vínicius** – APi WeatherAPI ,consumo da Weather API e estrutura do projeto
+- **Ana Claúdia** – Rooks – Implementação de componentes reutilizáveis,
 
